@@ -67,6 +67,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="ExtJS\.idea\.name" />
+    <Content Include="ExtJS\.idea\MiamiApp.iml" />
+    <Content Include="ExtJS\app\resources\MyData.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,10 +78,32 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ExtJS\.idea\compiler.xml" />
+    <Content Include="ExtJS\.idea\copyright\profiles_settings.xml" />
+    <Content Include="ExtJS\.idea\encodings.xml" />
+    <Content Include="ExtJS\.idea\jsLibraryMappings.xml" />
+    <Content Include="ExtJS\.idea\libraries\Ext_JS.xml" />
+    <Content Include="ExtJS\.idea\misc.xml" />
+    <Content Include="ExtJS\.idea\modules.xml" />
+    <Content Include="ExtJS\.idea\uiDesigner.xml" />
+    <Content Include="ExtJS\.idea\workspace.xml" />
+    <Content Include="ExtJS\app.js" />
+    <Content Include="ExtJS\app\model\Record.js" />
+    <Content Include="ExtJS\app\store\RecordStore.js" />
+    <Content Include="ExtJS\app\view\main\Main.js" />
+    <Content Include="ExtJS\app\view\main\MyPanel.js" />
+    <Content Include="ExtJS\app\view\main\MyPanelController.js" />
+    <Content Include="ExtJS\app\view\touchviews\MenuPanel.js" />
+    <Content Include="ExtJS\app\view\touchviews\NewRecord.js" />
+    <Content Include="ExtJS\app\view\touchviews\ShowRecords.js" />
+    <Content Include="ExtJS\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ExtJS\app\data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -103,6 +128,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
+      <UserProperties senchaNature="True" />
     </VisualStudio>
   </ProjectExtensions>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -1,0 +1,15 @@
+{
+  "items":[
+    {
+      "name": "vydaj",
+      "amount": 100,
+      "currency":"CZK",
+      "description": "moj popisok bla bla bla bla"
+    },{
+      "name": "vydaj2",
+      "amount": 1000,
+      "currency":"CZK",
+      "description": "moj poadasdasdasdpisok bla bla bla bla"
+    }
+  ]
+}
